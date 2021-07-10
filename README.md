@@ -6,7 +6,7 @@ cd `pg_config --sharedir`/tsearch_data
 
 sudo cp unaccent.rules unaccent.rules.bk
 
-sudo curl -O https://raw.githubusercontent.com/tuantrankim/postgres/master/contrib/unaccent/unaccent.rules
+sudo curl -O https://raw.githubusercontent.com/tuantrankim/postgres/main/unaccent.rules
 
 In pgadmin
 
