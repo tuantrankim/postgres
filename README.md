@@ -13,3 +13,8 @@ In pgadmin
 CREATE  EXTENSION unaccent;
 
 SELECT unaccent('phần mềm');
+
+SELECT p."Title"	FROM Public."Posts" p 
+where unaccent(p."Title") ilike unaccent('%tìm%') 
+order by p."Id" desc	
+limit 100
